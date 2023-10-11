@@ -1,0 +1,54 @@
+
+
+#container {
+  background-image: url('../space.jpeg');
+  background-size: cover;
+  /*width: 100vw;*/
+}
+
+#btn{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  background: red;
+  
+}
+
+
+#btn2{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  background: red;
+  
+}
+
+ .welcome {
+  position: absolute;
+  top: 30%;
+  left: 33%;
+  width: 35rem;
+  height: 10rem;
+  background-color: black;
+  color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  width: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: red;
+}
